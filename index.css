@@ -1,0 +1,22 @@
+/*Setting the color to blue*/
+h1 {
+    color: blue;
+}
+body {
+    background-image: url(../../Images/samsung\ fold\ 4.jfif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-right: 200px;
+}
+.sec9{
+    height: 100px;
+    background-color: powderblue;
+}
+.sec10{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+}

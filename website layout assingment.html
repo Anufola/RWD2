@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: #f1f1f1;
+          padding: 20px;
+          text-align: center;
+          background-color: darkslateblue;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: auto;
+          background-color: purple;
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          background-color: black;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: palevioletred;
+        }
+        
+        /* Create three unequal columns that floats next to each other */
+        .column {
+          float: left;
+          padding: 10px;
+        }
+        
+        /* Left and right column */
+        .column.side {
+          width: 25%;
+          background-color: lightblue;
+        }
+        
+        /* Middle column */
+        .column.middle {
+          width: 50%;
+          background-color: aqua;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column.side, .column.middle {
+            width: 100%;
+          }
+        }
+        
+        /* Style the footer */
+        .footer {
+          background-color: #f1f1f1;
+          padding: 10px;
+          text-align: center;
+          background-color: gold;
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+        <h1>* THE UNIQUE STORES *</h1>
+        <p>Unique, Simple and Classic</p>
+      </div>
+      
+      <div class="topnav">
+        <a href="#">CLOTHING</a>
+        <a href="#">SHOES</a>
+        <a href="#">GLASSES</a>
+      </div>
+      
+      <div class="row">
+        <div class="column side">
+          <h2>Clothing</h2>
+          <p>Discover the best clothes for all seasons, occassion and career </p>
+        </div>
+        
+        <div class="column middle">
+          <h2>Shoes</h2>
+          <p>On one end of the spectrum are the capital-D designers taking massive, culture-shifting swings, in the form of reality-questioning styles from Balenciaga or collaborations that used to only exist in our dreams</p>
+          <p>The best sneakers of 2022 have it tougher than ever. We'd be lying if we didn't admit that the world of sneakers isn't as alluring as it once was, with loafers, boots, and even—gasp—the occasional dress shoe all piquing our interest with more regularity than they have in years. </p>
+        </div>
+        
+        <div class="column side">
+          <h2>Glasses</h2>
+          <p>Discover the best Glasses for all seasons, occassion and career</p>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <p>Contact me on 08107283406 or message me on whatsapp</p>
+      </div>
+</body>
+</html>
